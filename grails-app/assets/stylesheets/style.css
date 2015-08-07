@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 12px;
+}
+
+.panel_login {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:500px;
+    height:400px;
+    box-shadow:0 0 5px #aaa;
+    border: none;
+}
+
+.input_wrap input,.input_wrap select {
+    margin-top:30px;
+    border:1px solid #aaa;
+    padding:5px;
+    height:35px;
+    position:relative;
+}
+
+
+.inner-addon {
+    position:relative;
+}
+
+.inner-addon .glyphicon {
+    position:absolute;
+    padding:10px;
+    pointer-events:none;
+}
+
+.left-addon .glyphicon {
+    left:0;
+}
+
+.right-addon .glyphicon {
+    right:0;
+}
+
+.left-addon input {
+    padding-left:30px;
+}
+
+.right-addon input {
+    padding-right:30px;
+}
+
+.btn_login_override {
+    outline:0;
+    padding:5px 40px;
+    background:#428BCA;
+    border:0;
+    color:#fff;
+    display:block;
+    margin:15px 0px;
+}
+
+.btn_login_override:hover,
+.btn_login_override:focus {
+    background:#c8dcd6;
+    color:#3183B9;
+}
+
+#alert{
+    float: right;
+    margin-bottom: 0px;
+}
+
+#headerBtn{
+    display: table;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+}
+
+#headerBtn a{
+    display: table-cell;
+    float: left;
+    margin-right: 20px;
+}
+
+#headerBtn a:hover{
+    text-decoration: none;
+}
+
+#logArea{
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: #000;
+    color:#fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+#logArea pre{
+    background: none;
+    overflow: hidden;
+    border:none;
+    color:#fff;
+}
